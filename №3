@@ -1,0 +1,7 @@
+import math
+number = float(input("Введіть додатнє число: "))
+if number <= 0:
+    print("Число повинно бути додатнім!")
+else:
+    result = math.log(number)
+    print(f"Натуральний логарифм числа {number} дорівнює: {result}")
